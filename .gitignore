@@ -1,0 +1,30 @@
+# Node modules (auto-installed, do not push)
+client/node_modules/
+server/node_modules/
+
+# Environment variables (secrets)
+client/.env
+server/.env
+.env
+
+# Build and production files
+client/build/
+server/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional caches
+client/.next/
+server/.next/
+.cache/
+
