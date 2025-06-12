@@ -1,0 +1,37 @@
+# === GLOBAL ===
+.DS_Store
+Thumbs.db
+.env
+.env.local
+
+# === NODE ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === FRONTEND (React) ===
+client/build/
+client/.env
+client/node_modules/
+client/.next/
+client/dist/
+
+# Log files
+client/logs/
+client/*.log
+
+# === BACKEND (Node) ===
+server/node_modules/
+server/.env
+server/logs/
+server/*.log
+
+# === OS & Editor files ===
+*.swp
+*.swo
+.idea/
+.vscode/
+*.bak
+*.tmp
+
