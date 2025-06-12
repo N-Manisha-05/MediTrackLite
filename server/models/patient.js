@@ -1,6 +1,10 @@
 import mongoose from 'mongoose';
 
+<<<<<<< HEAD
 
+=======
+// Same email validation regex
+>>>>>>> b0a349042b6b036bc6f5b2159457c00ab4c47519
 const emailValidator = (email) => {
   return /^[\w-\.]+@meditrack\.local$/.test(email);
 };
