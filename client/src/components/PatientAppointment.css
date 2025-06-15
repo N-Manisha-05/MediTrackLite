@@ -1,0 +1,71 @@
+/* PatientAppointments.css */
+
+.container-fluid {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background: linear-gradient(135deg, #f0f4ff, #d9e4ff);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    padding: 1.5rem 2rem; /* more padding now */
+    /* removed the ::before vertical line */
+  }
+  
+  .card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 16px 32px rgba(0, 123, 255, 0.3);
+    border-color: transparent;
+  }
+  
+  .card-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.8;
+    font-size: 1.1rem; /* increased font size */
+    letter-spacing: 0.025em;
+  }
+  
+  strong {
+    color: #003366;
+    display: inline-block;
+    min-width: 90px; /* aligned labels with wider min width */
+    font-size: 1.1rem;
+  }
+  
+  .badge {
+    font-size: 0.95rem;
+    padding: 0.4em 0.85em;
+    border-radius: 0.6rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .badge.bg-success {
+    background-color: #28a745;
+  }
+  
+  .badge.bg-success:hover {
+    background-color: #218838;
+  }
+  
+  .badge.bg-danger {
+    background-color: #dc3545;
+  }
+  
+  .badge.bg-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .badge.bg-warning {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .badge.bg-warning:hover {
+    background-color: #e0a800;
+  }
+  

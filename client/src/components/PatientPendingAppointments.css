@@ -1,0 +1,46 @@
+.pending-appointments-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.pending-appointments-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-align: center;
+}
+
+.no-appointments {
+  text-align: center;
+  font-size: 16px;
+  color: #777;
+}
+
+.appointments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.appointment-card {
+  background-color: #f8f9fa;
+  padding: 15px 20px;
+  border-left: 4px solid #007bff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.appointment-card p {
+  margin: 6px 0;
+  color: #333;
+}
+
+.pending-tag {
+  background-color: #ffc107;
+  color: #fff;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+}
